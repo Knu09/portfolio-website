@@ -1,0 +1,171 @@
+.contact-container {
+    justify-content: space-between;
+    align-items: start;
+    padding: 5% 5% 0 5%;
+}
+
+.contact-left {
+    flex-basis: 40%;
+}
+
+.contact-email {
+    font-size: 12px;
+}
+
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.contact-description {
+    font-size: 16px;
+}
+
+.social-medias a i {
+    color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 23px;
+    gap: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.social-medias a i:hover {
+    transform: translateY(-5px);
+}
+
+.contact-left p span {
+    margin-right: 15px;
+    font-size: 20px;
+    color: var(--clr-yellow);
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.contact-right * {
+    margin-bottom: 20px;
+}
+
+.contact-right form input,textarea {
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #262626;
+    border: none;
+    transition: .3s;
+    outline: none;
+}
+
+
+.submit-btn {
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--clr-yellow);
+    color: var(--clr-black);
+}
+
+.submit-btn:hover {
+    background-color: transparent;
+    color: var(--clr-white)
+}
+
+.submitted-msg {
+    color: rgb(0 150 0);
+    margin-left: 5px;
+}
+
+.fa-instagram:hover {
+    background-image: linear-gradient(to right, #F58529, #FEDA77, #DD2A7B, #8134AF,#515BD4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+/*!*xs*!*/
+/*@media (min-width: 475px){*/
+/*}*/
+
+/*!*s*!*/
+/*@media (min-width: 640px){*/
+/*}*/
+
+/*!*m*!*/
+/*@media (min-width: 768px){*/
+/*}*/
+
+/*!*lg*!*/
+/*@media (min-width: 1024px){*/
+/*}*/
+
+/*!*xL*!*/
+/*@media (min-width: 1285px){*/
+/*}*/
+
+/*2xL*/
+@media (min-width: 1920px){
+    .contact-left p{
+        font-size: 1.2em;
+    }
+
+    .contact-left div a i{
+        font-size: 2em;
+    }
+
+    .contact-right form input,textarea{
+        font-size: 1em;
+        padding: 20px 20px
+    }
+
+    .contact-right form button {
+        font-size: 1.3em;
+        width: 8em;
+    }
+}
+
+@media (min-width: 0) {
+    .contact-right {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+/*!*xs*!*/
+/*@media (min-width: 475px){*/
+/*}*/
+
+/*s*/
+@media (min-width: 640px){
+}
+
+/*m*/
+@media (min-width: 769px){
+    .contact-right {
+        margin-left: 15px;
+    }
+}
+
+/*!*lg*!*/
+/*@media (min-width: 1024px){*/
+/*}*/
+
+/*!*xL*!*/
+/*@media (min-width: 1285px){*/
+/*}*/
+
+/*!*2xL*!*/
+/*@media (min-width: 1920px){*/
+/*}*/
+
+

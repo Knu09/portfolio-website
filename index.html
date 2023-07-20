@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/util.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <link rel="icon" href="" type="">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <script defer src="script/projects.js"></script>
+    <script defer src="script/portfolio.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar-container" id="navbar">
+            <img class="image-logo" src="images/logo-yellow.png">
+            <!-- <a href="#" class="logo-section"><span>C</span>hrist.</a> -->
+            <ul>
+                <li class="animated-hover"><a href="#home" class="nav-link">Home</a></li>
+                <li class="animated-hover"><a href="#about" class="nav-link">About</a></li>
+                <li class="animated-hover"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="animated-hover"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="animated-hover"><a class="header__line nav-link"></a></li>
+                <li class="animated-hover"><a class="header__resume nav-link" href="#" >Resume</a></li>
+            </ul>
+            <div class="hamburger">
+<!--                <div>-->
+<!--                    <i class="fa-solid fa-bars"></i>-->
+<!--                </div>-->
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home-container container" id="home">
+            <div class="title hidden-scroll-to-left">
+                <div class="name">
+                    Hi, I'm Christian.
+                </div>
+                <div class="title-skills">
+                    I'm a <span></span>
+                </div>
+                <div class="home-details">
+                    I code and develop simple things, I am a dedicated student at the University of Negros Occidental - Recoletos currently pursuing a degree in Computer Science.
+                </div>
+            </div>
+            <img class="profile-image" src="images/MicrosoftTeams-image%20(11).png">
+        </section>
+
+        <!-- -------about page------- -->
+
+        <section id="about" class="about-container container">
+            <img class="about-image hidden-scroll-to-left" src="images/profile-image-about.png">
+            <div class="about-col2 hidden-scroll-to-left">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-description">
+                    My name is Christian L. De La Torre, I started experiencing coding in August 2022 during
+                    the first Semester of my first year in college.
+                    I encountered several challenges along the way. However, these challenges
+                    strive me hard to explore more about coding and fueled my passion for programming.
+                </p>
+                <div class="tab-titles">
+                    <div class="tab-links" onclick="openTab('technology')">
+                        Technologies
+                    </div>
+                    <div class="tab-links active-link" onclick="openTab('experience')">
+                        Experience
+                    </div>
+                    <div class="tab-links" onclick="openTab('education')">
+                        Education
+                    </div>
+                </div>
+                <div class="tab-contents" id="technology">
+                    <ul>
+                        <li><span>August 2022</span>
+                            <br><i class="fa-brands fa-python"></i> Python
+                        </li>
+                        <li><span>October 2022</span>
+                            <br><i class="fa-brands fa-java"></i> Java & Java Swing
+                        </li>
+                        <li><span>June 2023</span>
+                            <br><i class="fa-brands fa-square-js"></i> JavaScript
+                        </li>
+                        <li><span>July 2023</span>
+                            <br><i class="fa-brands fa-css3-alt"></i> HTML/CSS
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>Python basic fundamentals</span><br>&#183; Building an ATM Program<br>
+                            &#183; Programming a simple game Tic Tac Toe and Rock Paper Scissors</li>
+                        <li><span>Java</span><br>&#183; Implementing a 'FLAMES' console game<br>
+                            &#183; Object-Oriented Programming<br>
+                            &#183; Infix to postfix conversion.
+                        </li>
+                        <li><span>Java Swing</span><br>&#183; Building a GUI for 'FLAMES' game.<br>
+                            &#183; Program and design a GUI of Memorial plan application<br>
+                            &#183; Designing and implementing a functional Infix to Postfix Calculator
+                        </li>
+                        <li><span>JavaScript/CSS/HTML</span><br>&#183; Implementing a game 'Rock Paper Scissors'<br>
+                            &#183; Responsive Calculator Web App<br>
+                            &#183; Stopwatch/Timer Web App.<br>
+                            &#183; Tic Tac Toe interactive game.
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2023-1st Semester</span><br>Programming fundamentals in Python and Java</li>
+                        <li><span>2022-2023-2nd Semester</span><br>GUI framework</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------- Projects Section ------- -->
+        <section class="projects-container container" id="projects">
+            <div class="project-info">
+                <h1 class="sub-title project-subtitle">
+                    Projects
+                </h1>
+                <p class="project-description">
+                    Check out some of my collections of simple yet impactful projects. While some of these projects
+                     may not be demanding in terms of complexity, I am continuously implementing and exploring
+                    innovative ideas.
+                </p>
+            </div>
+            <div class="projects js-projects">
+                <!-- projects.js -->
+            </div>
+            <div class="showHide-section">
+                <button class="btn js-show-more-btn">Show more</button>
+            </div>
+        </section>
+
+        <!-- ------- Contact ------- -->
+        <section id="contact" class="contact-container container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p class="contact-email"><span><i class="fa-solid fa-envelope"></i></span>christiandelatorre1985@gmail.com</p>
+                <p><span><i class="fa-solid fa-phone"></i></span>+63 927 925 3635</p>
+                <p class="contact-description">Get in touch with me via social media or email</p>
+                <div class="social-medias">
+                    <a href="https://www.instagram.com/christ_0001/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/christian.delatorre.58/" target="_blank"><i class="fa-brands fa-facebook" target="_blank"></i></a>
+                    <a href="https://discord.com/channels/knu@5266" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input name="Name" type="text" placeholder="Enter your name">
+                    <input name="Email" type="email" placeholder="Enter your email">
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button class="submit-btn btn">Submit</button>
+                </form>
+                <span id="submitted-msg" class="submitted-msg"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="copyright container">
+            <p>Created By <span>Christian</span> | © 2023 All rights reserved.</p>
+
+            <a href="#home" class="home-modal">
+                <i class="fa-solid fa-chevron-up"></i>
+            </a>
+        </section>
+    </footer>
+
+</body>
+</html>
