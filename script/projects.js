@@ -12,16 +12,16 @@ const projects = [
         name: "TicTacToe",
         description: "A simple game that pits two players against each other in a battle for strategic dominance.\n" +
             " You can play it by visiting the link below.",
-        link: "#",
-        iconLink: "fa-brands fa-github"
+        link: "https://knu09.github.io/Tic-Tac-Toe/",
+        iconLink: "fa-solid fa-arrow-up-right-from-square"
     },
     {
         image: "StopWatch.png",
         name: "Stopwatch",
         description: "A web app digital tool designed to accurately measure and track time intervals. " +
             "It is commonly be used for timing different activities like workouts, cooking and productivity tasks.",
-        link: "#",
-        iconLink: "fa-brands fa-github"
+        link: "https://knu09.github.io/stopwatch/",
+        iconLink: "fa-solid fa-arrow-up-right-from-square"
     },
 
     {
@@ -29,8 +29,8 @@ const projects = [
         name: "Calculator",
         description: "A Calculator that is used for performing basic mathematical operations like " +
             "Addition, subtraction, multiplication, and division. Visit the link below.",
-        link: "#",
-        iconLink: "fa-brands fa-github"
+        link: "https://knu09.github.io/calculator/",
+        iconLink: "fa-solid fa-arrow-up-right-from-square"
     },
     {
         hidden: "hidden",
