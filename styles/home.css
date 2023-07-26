@@ -114,7 +114,7 @@
     .profile-image {
         margin-left: 50px;
         object-fit: contain;
-        width: 50%;
+        width: 100%;
     }
 
     .title {
@@ -152,7 +152,9 @@
 
     .profile-image {
         object-fit: contain;
-        width: 35%;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 50px;
     }
 
     .title-skills {
@@ -185,7 +187,8 @@
 
     .profile-image {
         object-fit: contain;
-        width: 40%;
+        width: 100%;
+        margin-left: 50px;
     }
 
     .title-skills {
