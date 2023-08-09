@@ -51,6 +51,14 @@ const projects = [
             "them to structure the funeral.",
         link: "https://github.com/Knu09/memorial-plan",
         iconLink: "fa-brands fa-github"
-    }
-
+    },
+    {
+        hidden: "hidden",
+        image: "Intel-website.png",
+        name: "IntelQuiz",
+        description: "A platform that offers a technological history and terms, programming-related questions, " +
+            "and simple machine problems.",
+        link: "https://knu09.github.io/quiz-website/#home",
+        iconLink: "fa-solid fa-arrow-up-right-from-square"
+    },
 ];
