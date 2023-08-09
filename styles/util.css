@@ -147,9 +147,9 @@ section {
 }
 
 /*m*/
-@media (min-width: 960px){
+@media (min-width: 769px){
     .container {
-        max-width: 900px;
+        max-width: 769px;
     }
 }
 

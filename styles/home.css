@@ -51,7 +51,7 @@
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
-    border-left: 3px solid #0d106e;
+    border-left: 3px solid var(--clr-yellow);
     right: -8px;
     animation: cursor .6s infinite, typing 20s steps(14) infinite;
 }
@@ -92,44 +92,7 @@
 
 /* 3xs */
 
-@media (min-width: 0){
-    section {
-        margin-top: 1em;
-    }
-    .container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .name {
-        font-size: 8px;
-    }
-    .home-details {
-        text-align: center;
-        font-size: 5px;
-        margin-top: 3px;
-        line-height: 10px;
-    }
-
-    .profile-image {
-        margin-left: 50px;
-        object-fit: contain;
-        width: 100%;
-    }
-
-    .title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .title-skills {
-        font-size: 20px;
-        font-weight: bold;
-        margin-top: 3px;
-    }
-}
+/*@media (min-width: 0){}
 
 /*2xs*/
 @media (min-width: 0){
@@ -137,31 +100,34 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 2em;
+        padding: 5em 0;
     }
 
     .name {
-        font-size: 10px;
+        font-size: 16px;
         text-align: center;
     }
     .home-details {
         text-align: center;
-        font-size: 8px;
-        margin-top: 5px;
-        line-height: 12px;
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 20px;
     }
 
     .profile-image {
         object-fit: contain;
         width: 100%;
         margin-left: 0;
+        margin-top: 3em;
         padding-left: 50px;
     }
 
     .title-skills {
         text-align: center;
-        font-size: 25px;
+        font-size: 36px;
         font-weight: bold;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .home-modal {
         font-size: 10px;
@@ -176,13 +142,14 @@
 
 /*s*/
 @media (min-width: 640px){
+
     .name {
-        font-size: 14px;
+        font-size: 16px;
     }
     .home-details {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 10px;
-        line-height:18px;
+        line-height: 18px;
     }
 
     .profile-image {
@@ -192,7 +159,7 @@
     }
 
     .title-skills {
-        font-size: 30px;
+        font-size: 34px;
         font-weight: bold;
         margin-top: 10px;
     }
@@ -210,6 +177,11 @@
         justify-content: space-between;
     }
 
+    .container {
+        margin-top: 5em;
+        padding: 0 0;
+    }
+
     .name {
         text-align: start;
         font-size: 16px;
@@ -224,7 +196,7 @@
 
     .profile-image {
         object-fit: contain;
-        width: 40%;
+        width: 50%;
     }
 
     .title-skills {

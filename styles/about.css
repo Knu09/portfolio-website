@@ -8,7 +8,6 @@
 }
 
 .about-col2 {
-    padding-right: 5%;
     height: 100%;
 }
 
@@ -97,6 +96,7 @@
 @media (max-width: 425px) {
     .about-col2 {
         max-width: 290px;
+        padding: 0;
     }
 
     .about-image {
@@ -137,8 +137,12 @@
         align-items: center;
     }
 
+    .about-col2 {
+        padding: 0 5%;
+    }
+
     .about-description {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 1.75em;
     }
     .sub-title {
@@ -166,6 +170,10 @@
 @media (min-width: 640px){
     .about-image {
         display: none;
+    }
+
+    .about-col2 {
+        padding-right: 5%;
     }
 }
 
